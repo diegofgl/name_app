@@ -1,17 +1,17 @@
-# name_app
+# Namer App
 
-A new Flutter project.
+Este é um aplicativo simples desenvolvido em Flutter
 
-## Getting Started
+- Provider Package: Utilizado para gerenciamento de estado eficiente, implementando o padrão Provider para fornecer e acessar objetos em toda a árvore de widgets.
 
-This project is a starting point for a Flutter application.
+- Layout Responsivo: Implementado com o LayoutBuilder para garantir que o aplicativo seja adaptável a diferentes tamanhos de tela, proporcionando uma experiência consistente em dispositivos móveis e desktop.
 
-A few resources to get you started if this is your first Flutter project:
+- Navegação com NavigationRail: Utilizado o NavigationRail para facilitar a navegação entre as seções do aplicativo, com opções de navegação lateral que se ajustam bem em layouts maiores, como tablets e desktops.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- State Management com ChangeNotifier: Implementado com a classe ChangeNotifier para notificar os widgets quando ocorrem alterações no estado do aplicativo, proporcionando uma atualização eficiente da interface do usuário.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# name_app
+- Widgets Interativos: Utilização de widgets interativos como ElevatedButton para interações do usuário, como marcar nomes como favoritos ou avançar para o próximo nome gerado.
+
+- Listagem Dinâmica com ListView: Utilizado o ListView para exibir uma lista rolável de nomes marcados como favoritos, proporcionando uma experiência de rolagem suave e eficiente.
+
+- Estilização com Theme: Implementado o Theme para personalizar o tema visual do aplicativo, incluindo cores, tipografia e outros estilos visuais.
